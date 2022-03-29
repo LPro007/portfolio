@@ -13,8 +13,9 @@
 }
 
 label {
-    width: 48vw;
-    font-size: 2em;
+    width: 68vw;
+    font-size: 18px;
     color: #3b87ca;
-    padding: 2em;
+    padding: 32px 10px;
+    text-align: center;
 }
