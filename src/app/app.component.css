@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Red+Hat+Mono:wght@300&display=swap');
+* {
+    font-family: 'Bitter', serif;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label {
+    width: 48vw;
+    font-size: 2em;
+    color: #3b87ca;
+    padding: 2em;
+}
