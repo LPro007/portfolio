@@ -5,16 +5,20 @@
 }
 
 .main {
+    margin-top: calc(50vh - 167px);
+}
+
+.container {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 334px;
     justify-content: center;
     flex-direction: column;
 }
 
 label {
     width: 68vw;
-    font-size: 18px;
+    font-size: 20px;
     color: #3b87ca;
     padding: 32px 10px;
     text-align: center;
