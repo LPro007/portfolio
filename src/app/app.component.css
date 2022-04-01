@@ -8,12 +8,16 @@
     margin-top: calc(50vh - 167px);
 }
 
-.container {
+.mainContent {
     display: flex;
     align-items: center;
     height: 334px;
     justify-content: center;
     flex-direction: column;
+}
+
+.mainContent img {
+    width: 300px;
 }
 
 label {
@@ -22,4 +26,22 @@ label {
     color: #3b87ca;
     padding: 32px 10px;
     text-align: center;
+}
+
+.sidemenu {
+    position: fixed;
+    bottom: 5vh;
+    left: 5vh;
+}
+
+.sidemenu[data-title]::before {
+    content: attr(data-title);
+    font-size: 21px;
+    margin-left: -20px;
+    display: block;
+    margin-bottom: 13px;
+}
+
+.sidemenu__link {
+    color: blue;
 }
